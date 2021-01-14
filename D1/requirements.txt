@@ -1,0 +1,3 @@
+certimaker
+python-docx
+pinyin
