@@ -1,0 +1,2964 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+
+</head>
+<body>
+    <div id="e3b83b2b6d354ea7936b5facbeed6176" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_e3b83b2b6d354ea7936b5facbeed6176 = echarts.init(
+            document.getElementById('e3b83b2b6d354ea7936b5facbeed6176'), 'white', {renderer: 'canvas'});
+        var option_e3b83b2b6d354ea7936b5facbeed6176 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "Alice",
+                    "value": 396,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,131,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "Queen",
+                    "value": 74,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,101,52)"
+                        }
+                    }
+                },
+                {
+                    "name": "King",
+                    "value": 61,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(123,155,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "Turtle",
+                    "value": 59,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,108,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mock",
+                    "value": 56,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,90,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "Gryphon",
+                    "value": 55,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,96,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hatter",
+                    "value": 55,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,154,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "Rabbit",
+                    "value": 45,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,49,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "Duchess",
+                    "value": 42,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,36,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "Dormouse",
+                    "value": 40,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,76,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hare",
+                    "value": 31,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,72,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mouse",
+                    "value": 30,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,137,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "That",
+                    "value": 29,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,137,62)"
+                        }
+                    }
+                },
+                {
+                    "name": "Caterpillar",
+                    "value": 27,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,71,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "Well",
+                    "value": 23,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,127,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "White",
+                    "value": 22,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,50,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "They",
+                    "value": 21,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(15,115,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "Come",
+                    "value": 21,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,29,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "Then",
+                    "value": 21,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(138,138,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "This",
+                    "value": 17,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,115,107)"
+                        }
+                    }
+                },
+                {
+                    "name": "Bill",
+                    "value": 16,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,5,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "Dinah",
+                    "value": 14,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,84,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "However",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,109,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "Dodo",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,97,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "Soup",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,90,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "Majesty",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,59,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "CHAPTER",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,5,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "Here",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,62,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "Footman",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,96,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pigeon",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,154,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "When",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,48,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "Knave",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,5,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "Would",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(3,61,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "Which",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,46,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "William",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,73,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "First",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,3,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "Just",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,72,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "Cheshire",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,42,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "Lory",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,30,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "Five",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,148,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "Lizard",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,12,155)"
+                        }
+                    }
+                },
+                {
+                    "name": "After",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,129,18)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hearts",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,84,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "English",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,96,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "Will",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(141,105,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "Seven",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,76,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "Beautiful",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,69,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "Where",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,121,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Lobster",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,17,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "While",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,117,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "Please",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,57,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "Very",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,73,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tell",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,40,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "Take",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(131,83,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sure",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,148,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "Call",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,51,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mabel",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,129,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "Father",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,138,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "Never",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,10,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mary",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,158,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "Beau",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,6,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "French",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,18,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "Nothing",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(131,91,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hold",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,74,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "With",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,21,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "Quadrille",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,19,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "Consider",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,4,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "ALICE",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,94,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "Nobody",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,67,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pray",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(74,46,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "Perhaps",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,143,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "Time",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,47,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "Exactly",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,145,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "Said",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,20,18)"
+                        }
+                    }
+                },
+                {
+                    "name": "Duck",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,11,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "Caucus",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,120,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "Turn",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,137,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tortoise",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,136,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "Drawling",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,77,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "Eaglet",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(3,44,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "Panther",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,70,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "Silence",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(64,68,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "Twinkle",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,40,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "Have",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,60,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Only",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,65,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "Give",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,13,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "Thank",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,157,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Wonderland",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,103,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "Once",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,30,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "Miss",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,126,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "Adventures",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,141,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "Serpent",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,19,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "Down",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,140,48)"
+                        }
+                    }
+                },
+                {
+                    "name": "Some",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,33,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "Wake",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,87,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "Presently",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(15,27,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "Explain",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,47,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "Rome",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,1,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "Fury",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,31,48)"
+                        }
+                    }
+                },
+                {
+                    "name": "Latitude",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,33,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "Speak",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,141,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "Your",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,55,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mind",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,131,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "Conqueror",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,145,146)"
+                        }
+                    }
+                },
+                {
+                    "name": "Everybody",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,67,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "Found",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,35,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "Poor",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,50,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "DRINK",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,128,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "Really",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,108,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "Keep",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,70,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "Digging",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,92,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mercia",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(0,98,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "Fish",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,41,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,29,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "Longitude",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,124,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "Paris",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,37,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pepper",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,31,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "Shall",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,83,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "Prizes",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,134,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "Unimportant",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,87,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "Edwin",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,112,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "Suppose",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,34,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hush",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,95,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "Uglification",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,33,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "CHORUS",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,135,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "Everything",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,120,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "These",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,45,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "Crab",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,66,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "Treacle",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,117,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "Northumbria",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(5,15,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mystery",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,6,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "Does",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,49,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "Morcar",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,42,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "Seaography",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(138,15,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "Begin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,149,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "LOVE",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,51,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stop",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,33,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sounds",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,83,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hole",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,2,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tale",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,49,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "Talking",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,31,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stand",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,91,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "Write",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,125,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "Soon",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(63,35,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "Classics",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,74,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "Even",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,155,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "Herald",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,79,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "ADVENTURES",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,24,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "Frog",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(85,119,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "WONDERLAND",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,19,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "Nearly",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,95,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "Game",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,40,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "Lewis",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,35,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Dinn",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,73,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "Canary",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,31,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "FOOT",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,35,18)"
+                        }
+                    }
+                },
+                {
+                    "name": "Distraction",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,63,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "Twenty",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,141,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "Dear",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,61,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "HEARTS",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,114,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "RABBIT",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,46,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "Because",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,4,141)"
+                        }
+                    }
+                },
+                {
+                    "name": "Boots",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,99,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "SOUP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,102,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "Carroll",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,144,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "Grammar",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,44,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "Therefore",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,103,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tillie",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,117,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "Same",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,63,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "Nile",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,16,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sentence",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,3,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "Either",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,119,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "Seals",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,120,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "Multiplication",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,7,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "Curiouser",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,145,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pennyworth",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,117,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "Rule",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,85,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "Before",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,85,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "Last",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(5,126,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "Visit",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(33,133,52)"
+                        }
+                    }
+                },
+                {
+                    "name": "Antipathies",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,98,64)"
+                        }
+                    }
+                },
+                {
+                    "name": "France",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(128,97,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tears",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,90,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "Luckily",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,108,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stretching",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,112,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "Their",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,136,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "RIGHT",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,76,95)"
+                        }
+                    }
+                },
+                {
+                    "name": "Writhing",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,76,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "Drive",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,28,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "Ambition",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(107,119,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stigand",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,83,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "Half",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,86,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "Coming",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,70,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "Suddenly",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,81,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "FENDER",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(25,141,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "Chorus",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,21,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "Thinking",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,55,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "Party",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,50,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "Repeat",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,126,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "Involved",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(64,49,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "Ground",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,69,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "Always",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,137,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "Atheling",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,100,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "Latin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,31,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "Jack",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,114,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "Lacie",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,127,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "Normans",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,48,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "Drink",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,105,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "Good",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,46,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hadn",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,145,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "Derision",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,108,138)"
+                        }
+                    }
+                },
+                {
+                    "name": "MARMALADE",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,113,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "HEARTHRUG",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,64,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "Lastly",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,48,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "Australia",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,65,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "Indeed",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,148,60)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hand",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,124,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "England",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,94,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stuff",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,141,11)"
+                        }
+                    }
+                },
+                {
+                    "name": "Laughing",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,41,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "QUEEN",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,134,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "Fifteenth",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(144,28,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "Brandy",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,31,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "Project",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,156,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "Race",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,119,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "Suppress",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,146,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "Arithmetic",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,121,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "Fainting",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,69,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hardly",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,99,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "Look",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,143,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "Grief",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,44,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "From",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,142,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "Between",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,64,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "Leave",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,1,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "Swim",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,96,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "Behead",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(138,114,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "MILLENNIUM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,150,138)"
+                        }
+                    }
+                },
+                {
+                    "name": "Geography",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,77,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "Heads",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,82,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "VIII",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,40,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "Those",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(3,7,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mine",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,19,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "Story",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,97,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sixteenth",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,146,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "Puss",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,19,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "Etext",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,127,33)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stolen",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(63,107,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hjckrrh",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(159,43,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "Table",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,2,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "Whoever",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,15,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "Improve",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,43,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "London",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,25,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "Maybe",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,16,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "Ahem",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,2,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "Evidence",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(123,11,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "Shan",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,55,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "Allow",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,42,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "Read",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,65,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "Right",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,91,30)"
+                        }
+                    }
+                },
+                {
+                    "name": "ORANGE",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,30,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "Elsie",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(109,119,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "Such",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,63,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "Croquet",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,19,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "Coils",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,134,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "Imagine",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,146,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "Trims",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,48,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sends",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,65,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "EDITION",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,159,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stupid",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,46,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "Back",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,13,64)"
+                        }
+                    }
+                },
+                {
+                    "name": "Tarts",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,46,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "Bring",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(15,109,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "Advice",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,115,18)"
+                        }
+                    }
+                },
+                {
+                    "name": "Soles",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,39,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "Wouldn",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,120,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "Idiot",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(47,140,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "WITH",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,90,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "Forty",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,93,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "Gutenberg",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,34,9)"
+                        }
+                    }
+                },
+                {
+                    "name": "Christmas",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,79,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Kings",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,147,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "Quick",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(24,3,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "Besides",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,32,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "KING",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(109,59,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "Nonsense",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,114,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "Certainly",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,42,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "Reeling",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,118,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "Still",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,104,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "Stole",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,100,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "Catch",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,38,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "Anything",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,51,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "Magpie",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,5,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "Little",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,41,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "NEAR",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,153,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "Waiting",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,50,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "Edgar",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,62,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "Change",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,83,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pinch",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(127,77,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "Shark",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,88,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "Like",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(77,150,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "Fetch",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(81,22,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "Though",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,139,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "Fourteenth",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(84,64,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "Somebody",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,83,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "Canterbury",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,150,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "Alas",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(128,71,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "Birds",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,63,11)"
+                        }
+                    }
+                },
+                {
+                    "name": "Queens",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,47,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "Zealand",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,74,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "Shakespeare",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,152,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "FULCRUM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,115,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "Each",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(12,64,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "Number",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,55,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "Pool",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,141,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "Long",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,122,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "Collar",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,100,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sing",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,101,26)"
+                        }
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "THE CHARACTER NAMES OF THE HIGHEST FREQUENCY",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_e3b83b2b6d354ea7936b5facbeed6176.setOption(option_e3b83b2b6d354ea7936b5facbeed6176);
+    </script>
+</body>
+</html>
