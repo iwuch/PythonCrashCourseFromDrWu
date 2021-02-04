@@ -1,2 +1,2 @@
 # PythonCrashCourseFromDrWu
-This repository will contain the sources codes involved in my class.
+This repository will contain the source codes involved in my class.
