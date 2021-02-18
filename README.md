@@ -30,3 +30,9 @@ The headaching math problems you took in the exams can be easily soved by severa
 If you wanna use machines to complish the tedious jobs like counting the word number of a novel, python is like a swiss knife for these. It is a integrated application of variable, containers and file operations.
 ### Task10: Analysis the high frequency words in TOEFL
 Reproducity is the most charming feature of programming. Apply the knowledge we have grasped in the basic course crash course of python and enjoy the efficiency of programming.
+
+## D6 Application of SVD using Numpy
+### Task11: Recommend System based on Cosine Similarity
+Recommend system can accurately guess what the user would like to order according to their history score compared with others. SVD decomposition can be used to speed up when caculating the similarity between differnt dishes.
+### Task12: Compress RGB picture using SVD
+Something like the Twenty-Eighty Law, the infomation in a picture can be abstracted by the most important components represented by the sigular values of matrix. So we can reduce the space one picture occupies by SVD based compression.
