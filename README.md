@@ -36,3 +36,9 @@ Reproducity is the most charming feature of programming. Apply the knowledge we 
 Recommend system can accurately guess what the user would like to order according to their history score compared with others. SVD decomposition can be used to speed up when caculating the similarity between differnt dishes.
 ### Task12: Compress RGB picture using SVD
 Something like the Twenty-Eighty Law, the infomation in a picture can be abstracted by the most important components represented by the sigular values of matrix. So we can reduce the space one picture occupies by SVD based compression.
+
+## D7 Analyze Douban Data with Pandas
+### Task13:Find out the hottest 50 books
+Given databases including books.csv, and to_read csv, we can get the hottest 50 books of DouBan by counting the number of people want to read them and visulize them.
+### Task14:Find out the hottest tags of those books
+In addition to the data given in Task 13, tags.csv and book_tags.csv are also given so that we can know what are the hottest tags to each book found in the previous task. 
