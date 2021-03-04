@@ -42,3 +42,9 @@ Something like the Twenty-Eighty Law, the infomation in a picture can be abstrac
 Given databases including books.csv, and to_read csv, we can get the hottest 50 books of DouBan by counting the number of people want to read them and visulize them.
 ### Task14:Find out the hottest tags of those books
 In addition to the data given in Task 13, tags.csv and book_tags.csv are also given so that we can know what are the hottest tags to each book found in the previous task. 
+
+## D8 From Data Analysis to Machine Learning
+### Task15: See how machines learns
+Taking linear regression as an example, we will show the progress of gradient descend algorithm by drawing the lines of each epoch using matplotlib.
+### Task16: Predict the quality of a watermelon
+It is such a classical example of machine learning for the book Prof. Zhou Zhihua published being the teaching material in a lot of Chinese universities. Let's do it with sklearn!
